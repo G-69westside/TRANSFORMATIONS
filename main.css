@@ -1,0 +1,61 @@
+body {
+  background-color: beige;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+.card {
+  display: block;
+  position: fixed;
+  margin: 0 auto;
+  border-radius: 17px;
+  min-width: 25vw;
+  border: transparent;
+  transform: rotate(-5deg);
+  transition: 500ms;
+  overflow: hidden;
+}
+.up-wrap {
+  
+  height: 170px;
+  background: whitesmoke;
+}
+p {
+  width: 200px;
+  text-align: left;
+}
+img {
+  border: 3px solid white;
+  border-radius: 150px;
+  transition: 500ms;
+}
+.down-wrap {
+  background: linear-gradient(
+    90deg,
+    rgba(92, 191, 187, 1) 0%,
+    rgba(116, 214, 144, 1) 100%
+  );
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* align-content: flex-start; */
+  /* justify-content: flex-start; */
+}
+.name-section {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+h3 {
+  color: white;
+}
+.p-section {
+  transform: translate(10px);
+}
+.card:hover {
+  transform: rotate(0deg);
+  transition: 1000ms;
+}
+.card:hover img {
+  transform: scale(0.8);
+  transition: 1000ms;
+}
